@@ -26,44 +26,26 @@
 </head>
 
 <body>
-    <div class="container-fluid bg-secondary ps-5 pe-0 d-none d-lg-block">
-        <div class="row gx-0">
-            <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
-                <div class="d-inline-flex align-items-center">
-                    <a class="text-body py-2 pe-3 border-end" href="#faq"><small>FAQs</small></a>
-                    <a class="text-body py-2 px-3 border-end" href="#soporte"><small>Soporte</small></a>
-                    <a class="text-body py-2 ps-3" href="#contacto"><small>Contacto</small></a>
-                </div>
-            </div>
-            <div class="col-md-6 text-center text-lg-end">
-                <div class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
-                    <div class="me-3 pe-3 border-end py-2">
-                        <p class="m-0"><i class="fa fa-envelope-open me-2"></i>info@webclinicascordoba.com</p>
-                    </div>
-                    <div class="py-2">
-                        <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+34 600 123 456</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-3 py-2">
         <a class="navbar-brand p-0" href="index.html">
-            <span class="m-0 text-uppercase text-primary"><i class="fa fa-tooth text-primary me-2"></i>Web Clínicas
-                Córdoba</span>
+            <span class="m-0 text-uppercase text-primary small"><i class="fa fa-tooth text-primary me-2"></i>Web
+                Clínicas Córdoba</span>
         </a>
-        <button class="navbar-toggler" data-bs-target="#navbarCollapse" data-bs-toggle="collapse" type="button">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto py-0 me-n3">
+            <div class="navbar-nav ms-auto">
                 <a class="nav-item nav-link active" href="#inicio">Inicio</a>
-                <a class="nav-item nav-link" href="#contacto">Contacto</a>
+                <a class="nav-item nav-link" href="#jobs">Trabajos Recientes</a>
+                <a class="nav-item nav-link" href="#beneficios">Beneficios</a>
+                <a class="nav-item nav-link" href="#presupuesto">Pedir Presupuesto</a>
             </div>
         </div>
     </nav>
     <!-- ===== CTA PRINCIPAL ===== -->
-    <section class="container-fluid p-0 bg-dark text-white d-flex align-items-center justify-content-center"
+    <section id="inicio" class="container-fluid p-0 bg-dark text-white d-flex align-items-center justify-content-center"
         style="min-height: 70vh; background: url('img/cta-bg.jpg') center/cover no-repeat;">
         <div class="text-center p-4" style="max-width: 800px;">
             <h1 class="display-3 fw-bold mb-3">Diseño Web para Clínicas Dentales en Córdoba</h1>
@@ -82,7 +64,7 @@
     </section>
     <!-- Trabajos Recientes -->
     <!-- ===== TRABAJOS RECIENTES ===== -->
-    <section class="container py-5">
+    <section id="jobs" class="container py-5">
         <header class="text-center mb-5">
             <h2 class="text-primary text-uppercase">Nuestros Trabajos</h2>
             <h1 class="display-5" id="trabajos-recientes">Ejemplos de Web para Clínicas Dentales en Córdoba</h1>
@@ -105,7 +87,7 @@
     </section>
     <!-- Beneficios SEO y Conversión -->
     <!-- ===== BENEFICIOS SEO Y CONVERSIÓN ===== -->
-    <section class="bg-light py-5">
+    <section id="beneficios" class="bg-light py-5">
         <div class="container">
             <h2 class="text-center mb-4">¿Por qué elegirnos para tu clínica dental?</h2>
             <div class="row">
@@ -126,7 +108,7 @@
     </section>
     <!-- Formulario de Contacto -->
     <!-- ===== FORMULARIO DE CONTACTO ===== -->
-    <section class="container py-5" id="contacto">
+    <section id="presupuesto" class="container py-5" id="contacto">
         <h2 class="text-center mb-4">Solicita tu Presupuesto Gratis</h2>
         <form>
             <div class="mb-3">
@@ -196,20 +178,58 @@
             </div>
         </div>
     </div>
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-secondary p-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h3 class="text-white mb-4">Enlaces Rápidos</h3>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="nav-item nav-link active" href="#header-carousel">Inicio</a>
+                    <a class="nav-item nav-link" href="#servicios">Servicios</a>
+                    <a class="nav-item nav-link" href="#precios">Precios</a>
+                    <a class="nav-item nav-link" href="#presupuesto">Pedir Presupuesto</a>
+                    <a class="nav-item nav-link" href="#about">Sobre Nosotros</a>
+                    <a class="nav-item nav-link" href="#testimonios">Testimonios</a>
+                    <a class="nav-item nav-link" href="#faqs">FAQs</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h3 class="text-white mb-4">Contáctanos</h3>
+                <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>C. Rda. de la Manca, 2, Centro, 14010
+                    Córdoba
+                </p>
+                <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>webclinicascordoba@gmail.com</p>
+                <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>603 36 80 76</p>
+            </div>
+
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3148.8862066408824!2d-4.7645574!3d37.88634379999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6cdf71392c38fb%3A0xa116813fa3b5e9b3!2sDise%C3%B1o%20Web%20Cordoba!5e0!3m2!1ses!2ses!4v1749481064307!5m2!1ses!2ses"
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+                    allowfullscreen="no" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    title="Ubicación de Juan José Jurado en Google Maps">
+                </iframe>
+            </div>
+        </div>
+
+    </div>
     <div class="container-fluid bg-dark text-secondary text-center border-top py-4 px-5"
         style="border-color: rgba(256, 256, 256, .1) !important;">
         <p class="m-0">© <a class="text-secondary border-bottom" href="#">Web Clínicas Córdoba</a>. Todos los
-            derechos reservados. Diseñado por <a class="text-secondary border-bottom" href="https://htmlcodex.com">HTML
-                Codex</a></p>
+            derechos reservados. Diseñado por <a class="text-secondary border-bottom"
+                href="https://diseñowebcordoba.es">Juan José Jurado</a></p>
     </div>
-    <a class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top" href="#"><i
-            class="bi bi-arrow-up"></i></a>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+    <!-- Footer End -->
 </body>
+<!-- Back to Top -->
+<a class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top" href="#"><i class="bi bi-arrow-up"></i></a>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
 
 </html>

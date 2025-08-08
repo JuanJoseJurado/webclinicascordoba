@@ -40,11 +40,13 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-item nav-link active" href="#inicio">Inicio</a>
-                    <a class="nav-item nav-link" href="#about">Sobre Nosotros</a>
+                    <a class="nav-item nav-link active" href="#header-carousel">Inicio</a>
                     <a class="nav-item nav-link" href="#servicios">Servicios</a>
                     <a class="nav-item nav-link" href="#precios">Precios</a>
-                    <a class="nav-item nav-link" href="#contacto">Contacto</a>
+                    <a class="nav-item nav-link" href="#presupuesto">Pedir Presupuesto</a>
+                    <a class="nav-item nav-link" href="#about">Sobre Nosotros</a>
+                    <a class="nav-item nav-link" href="#testimonios">Testimonios</a>
+                    <a class="nav-item nav-link" href="#faqs">FAQs</a>
                 </div>
             </div>
         </nav>
@@ -148,7 +150,7 @@
             </div>
         </div>
         <!-- ===== LO QUE OFRECEMOS ===== -->
-        <div class="container-fluid pt-6 px-5">
+        <div id="servicios" class="container-fluid pt-6 px-5">
             <div class="text-center mx-auto mb-5" style="max-width: 600px;">
                 <h2 class="display-5 mb-0">Lo que Ofrecemos</h2>
                 <hr class="w-25 mx-auto bg-primary" />
@@ -218,7 +220,7 @@
             </div>
         </div>
         <!-- ===== SECCIÓN SERVICIOS (Cards redondeadas) ===== -->
-        <div id="servicios" class="container py-6">
+        <div id="precios" class="container py-6">
             <div class="text-center mb-5">
                 <h2 class="display-5">Servicios Web para Clínicas Dentales</h2>
                 <p class="text-muted">Planes diseñados para captar más pacientes y potenciar tu clínica en Internet.</p>
@@ -266,7 +268,7 @@
             </div>
         </div>
         <!-- ===== SOLICITA UN PRESUPUESTO ===== -->
-        <div class="container-fluid bg-secondary px-0">
+        <div id="presupuesto" class="container-fluid bg-secondary px-0">
             <div class="row g-0">
                 <div class="col-lg-6 py-6 px-5">
                     <h2 class="display-5 mb-4">Solicita un Presupuesto Gratis</h2>
@@ -315,7 +317,7 @@
             </div>
         </div>
         <!-- ===== POR QUÉ ELEGIRNOS ===== -->
-        <div class="container-fluid py-6 px-5">
+        <div id="about" class="container-fluid py-6 px-5">
             <div class="text-center mx-auto mb-5" style="max-width: 600px;">
                 <h2 class="display-5 mb-0">Por Qué Elegirnos</h2>
                 <hr class="w-25 mx-auto bg-primary" />
@@ -390,7 +392,7 @@
             </div>
         </div>
         <!-- ===== TESTIMONIOS ===== -->
-        <div class="container-fluid bg-secondary p-0">
+        <div id="testimonios" class="container-fluid bg-secondary p-0">
             <div class="row g-0">
                 <div class="col-lg-6" style="min-height: 500px;">
                     <div class="position-relative h-100">
@@ -402,26 +404,66 @@
                     <h2 class="display-5 mb-4">Lo que Dicen Nuestros Clientes</h2>
                     <div class="owl-carousel testimonial-carousel">
                         <div class="testimonial-item">
-                            <p class="fs-4 fw-normal mb-4"><i class="fa fa-quote-left text-primary me-3"></i>Testimonios
-                                reales que avalan nuestro trabajo y resultados.</p>
+                            <p class="fs-4 fw-normal mb-4">
+                                <i class="fa fa-quote-left text-primary me-3"></i>
+                                "Desde que estrenamos la nueva página web, nuestras solicitudes de cita online han
+                                aumentado un 60%. La web transmite profesionalidad y confianza, justo lo que
+                                buscábamos."
+                            </p>
                             <div class="d-flex align-items-center">
-                                <img alt="Imagen de testimonial 1" class="img-fluid rounded-circle"
-                                    src="img/testimonial-1.jpg" />
+                                <img alt="Clínica Dental Sonrisas Córdoba" class="img-fluid rounded-circle"
+                                    src="img/testimonial-1.jpg">
                                 <div class="ps-4">
-                                    <h3>Nombre del Cliente</h3>
-                                    <span class="text-uppercase">Profesión</span>
+                                    <h3>Clínica Dental Sonrisas</h3>
+                                    <span class="text-uppercase">Córdoba</span>
                                 </div>
                             </div>
                         </div>
+
                         <div class="testimonial-item">
-                            <p class="fs-4 fw-normal mb-4"><i class="fa fa-quote-left text-primary me-3"></i>Testimonios
-                                reales que avalan nuestro trabajo y resultados.</p>
+                            <p class="fs-4 fw-normal mb-4">
+                                <i class="fa fa-quote-left text-primary me-3"></i>
+                                "El SEO local implementado ha hecho que nuestra clínica aparezca en los primeros
+                                resultados de Google. Ahora recibimos pacientes que nos encuentran directamente online."
+                            </p>
                             <div class="d-flex align-items-center">
-                                <img alt="Imagen de testimonial 2" class="img-fluid rounded-circle"
-                                    src="img/testimonial-2.jpg" />
+                                <img alt="Clínica Dental SmileCare" class="img-fluid rounded-circle"
+                                    src="img/testimonial-2.jpg">
                                 <div class="ps-4">
-                                    <h3>Nombre del Cliente</h3>
-                                    <span class="text-uppercase">Profesión</span>
+                                    <h3>SmileCare Dental</h3>
+                                    <span class="text-uppercase">Sevilla</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-item">
+                            <p class="fs-4 fw-normal mb-4">
+                                <i class="fa fa-quote-left text-primary me-3"></i>
+                                "El diseño es moderno, adaptado a móviles y muy fácil de navegar. Hemos recibido
+                                comentarios positivos incluso de nuestros pacientes más mayores."
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img alt="Clínica Dental Maxident" class="img-fluid rounded-circle"
+                                    src="img/testimonial-1.jpg">
+                                <div class="ps-4">
+                                    <h3>Maxident</h3>
+                                    <span class="text-uppercase">Málaga</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-item">
+                            <p class="fs-4 fw-normal mb-4">
+                                <i class="fa fa-quote-left text-primary me-3"></i>
+                                "Gracias a la integración de reservas online y recordatorios automáticos, hemos reducido
+                                un 40% las ausencias a las citas."
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img alt="Clínica Dental Blanco" class="img-fluid rounded-circle"
+                                    src="img/testimonial-2.jpg">
+                                <div class="ps-4">
+                                    <h3>Clínica Dental Blanco</h3>
+                                    <span class="text-uppercase">Granada</span>
                                 </div>
                             </div>
                         </div>
@@ -430,7 +472,7 @@
             </div>
         </div>
         <!-- ===== PREGUNTAS FRECUENTES ===== -->
-        <div class="container-fluid py-6 px-5">
+        <div id="faqs" class="container-fluid py-6 px-5">
             <div class="text-center mx-auto mb-5" style="max-width: 600px;">
                 <h2 class="display-5 mb-0">Preguntas Frecuentes</h2>
                 <hr class="w-25 mx-auto bg-primary" />
@@ -557,67 +599,54 @@
             </div>
         </div>
     </main>
-</body>
-<!-- Footer Start -->
-<div class="container-fluid bg-dark text-secondary p-5">
-    <div class="row g-5">
-        <div class="col-lg-3 col-md-6">
-            <h3 class="text-white mb-4">Enlaces Rápidos</h3>
-            <div class="d-flex flex-column justify-content-start">
-                <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Inicio</a>
-                <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Acerca
-                    de</a>
-                <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Nuestros
-                    Servicios</a>
-                <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Últimos
-                    Artículos</a>
-                <a class="text-secondary" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contacto</a>
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-secondary p-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h3 class="text-white mb-4">Enlaces Rápidos</h3>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="nav-item nav-link active" href="#header-carousel">Inicio</a>
+                    <a class="nav-item nav-link" href="#servicios">Servicios</a>
+                    <a class="nav-item nav-link" href="#precios">Precios</a>
+                    <a class="nav-item nav-link" href="#presupuesto">Pedir Presupuesto</a>
+                    <a class="nav-item nav-link" href="#about">Sobre Nosotros</a>
+                    <a class="nav-item nav-link" href="#testimonios">Testimonios</a>
+                    <a class="nav-item nav-link" href="#faqs">FAQs</a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h3 class="text-white mb-4">Contáctanos</h3>
+                <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>C. Rda. de la Manca, 2, Centro, 14010
+                    Córdoba
+                </p>
+                <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>webclinicascordoba@gmail.com</p>
+                <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>603 36 80 76</p>
+            </div>
+
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3148.8862066408824!2d-4.7645574!3d37.88634379999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6cdf71392c38fb%3A0xa116813fa3b5e9b3!2sDise%C3%B1o%20Web%20Cordoba!5e0!3m2!1ses!2ses!4v1749481064307!5m2!1ses!2ses"
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+                    allowfullscreen="no" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    title="Ubicación de Juan José Jurado en Google Maps">
+                </iframe>
             </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-            <h3 class="text-white mb-4">Servicios Populares</h3>
-            <div class="d-flex flex-column justify-content-start">
-                <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Diseño
-                    Web</a>
-                <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Marketing
-                    Digital</a>
-                <a class="text-secondary mb-2" href="#"><i
-                        class="bi bi-arrow-right text-primary me-2"></i>Posicionamiento SEO</a>
-                <a class="text-secondary mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Asesoría
-                    para Clínicas</a>
-                <a class="text-secondary" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Cumplimiento
-                    Legal</a>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <h3 class="text-white mb-4">Contáctanos</h3>
-            <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Calle Ejemplo 123, Córdoba, España</p>
-            <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@webclinicascordoba.com</p>
-            <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+34 957 12 34 56</p>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <h3 class="text-white mb-4">Síguenos</h3>
-            <div class="d-flex">
-                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i
-                        class="fab fa-twitter fw-normal"></i></a>
-                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i
-                        class="fab fa-facebook-f fw-normal"></i></a>
-                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#"><i
-                        class="fab fa-linkedin-in fw-normal"></i></a>
-                <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#"><i
-                        class="fab fa-instagram fw-normal"></i></a>
-            </div>
-        </div>
+
     </div>
-</div>
-<div class="container-fluid bg-dark text-secondary text-center border-top py-4 px-5"
-    style="border-color: rgba(256, 256, 256, .1) !important;">
-    <p class="m-0">© <a class="text-secondary border-bottom" href="#">Web Clínicas Córdoba</a>. Todos los
-        derechos reservados. Diseñado por <a class="text-secondary border-bottom"
-            href="https://diseñowebcordoba.es">Juan José Jurado</a></p>
-</div>
-<!-- Footer End -->
-<!-- Aquí seguirían las secciones originales adaptadas (features, quote, team, testimonial, blog, footer) usando mismas clases -->
+    <div class="container-fluid bg-dark text-secondary text-center border-top py-4 px-5"
+        style="border-color: rgba(256, 256, 256, .1) !important;">
+        <p class="m-0">© <a class="text-secondary border-bottom" href="#">Web Clínicas Córdoba</a>. Todos los
+            derechos reservados. Diseñado por <a class="text-secondary border-bottom"
+                href="https://diseñowebcordoba.es">Juan José Jurado</a></p>
+    </div>
+    <!-- Footer End -->
+</body>
+<!-- Back to Top -->
+<a class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top" href="#"><i class="bi bi-arrow-up"></i></a>
+
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="lib/owlcarousel/owl.carousel.min.js"></script>
