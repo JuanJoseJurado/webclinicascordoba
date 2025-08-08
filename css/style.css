@@ -1,10 +1,36 @@
 /********** Template CSS **********/
 :root {
-    --primary: #3BB1B1; /* Turquesa: confianza, higiene, calma */
-    --secondary: #F6F6F6; /* Gris muy claro para secciones suaves */
-    --light: #FFFFFF; /* Blanco: limpieza, pureza */
-    --dark: #152440; /* Azul oscuro: profesionalidad, contraste */
-    --accent: #F3525A; /* Color cálido para CTA y énfasis */
+    --primary: #3BB1B1;
+    /* Turquesa: confianza, higiene, calma */
+    --secondary: #F6F6F6;
+    /* Gris muy claro para secciones suaves */
+    --light: #FFFFFF;
+    /* Blanco: limpieza, pureza */
+    --dark: #152440;
+    /* Azul oscuro: profesionalidad, contraste */
+    --accent: #F3525A;
+    /* Color cálido para CTA y énfasis */
+}
+
+/* Altura del carousel adaptable */
+.carousel-item {
+    height: 100vh;
+    /* por defecto: ocupa toda la altura de la pantalla */
+    min-height: 400px;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* En móviles, que no ocupe toda la pantalla */
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 60vh;
+        min-height: 300px;
+    }
 }
 
 /* Encabezados en color primary para transmitir confianza */
@@ -65,7 +91,8 @@ h6,
 
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color: #d94148; /* tono más oscuro del rojo rosado */
+    background-color: #d94148;
+    /* tono más oscuro del rojo rosado */
     border-color: #d94148;
     color: var(--light);
 }
@@ -126,7 +153,7 @@ h6,
 }
 
 @media (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link  {
+    .navbar-light .navbar-nav .nav-link {
         padding: 10px 0;
     }
 }
@@ -137,7 +164,8 @@ h6,
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(21, 36, 64, .7); /* azul oscuro semitransparente */
+    background: rgba(21, 36, 64, .7);
+    /* azul oscuro semitransparente */
     z-index: 1;
 }
 
@@ -243,7 +271,7 @@ h6,
 }
 
 .testimonial-carousel .owl-nav .owl-prev,
-.testimonial-carousel .owl-nav .owl-next{
+.testimonial-carousel .owl-nav .owl-next {
     position: relative;
     margin: 0 5px;
     width: 45px;

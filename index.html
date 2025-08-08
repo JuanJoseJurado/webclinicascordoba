@@ -27,40 +27,19 @@
 
 <body>
     <main>
-        <!-- Topbar -->
-        <div class="container-fluid bg-secondary ps-5 pe-0 d-none d-lg-block">
-            <div class="row gx-0">
-                <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
-                    <div class="d-inline-flex align-items-center">
-                        <a class="text-body py-2 pe-3 border-end" href="#faq"><small>FAQs</small></a>
-                        <a class="text-body py-2 px-3 border-end" href="#soporte"><small>Soporte</small></a>
-                        <a class="text-body py-2 ps-3" href="#contacto"><small>Contacto</small></a>
-                    </div>
-                </div>
-                <div class="col-md-6 text-center text-lg-end">
-                    <div
-                        class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
-                        <div class="me-3 pe-3 border-end py-2">
-                            <p class="m-0"><i class="fa fa-envelope-open me-2"></i>info@webclinicascordoba.com</p>
-                        </div>
-                        <div class="py-2">
-                            <p class="m-0"><i class="fa fa-phone-alt me-2"></i>+34 600 123 456</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
+
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-5 py-3 py-lg-0">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm px-3 py-2">
             <a class="navbar-brand p-0" href="index.html">
-                <span class="m-0 text-uppercase text-primary"><i class="fa fa-tooth text-primary me-2"></i>Web Clínicas
-                    Córdoba</span>
+                <span class="m-0 text-uppercase text-primary small"><i class="fa fa-tooth text-primary me-2"></i>Web
+                    Clínicas Córdoba</span>
             </a>
-            <button class="navbar-toggler" data-bs-target="#navbarCollapse" data-bs-toggle="collapse" type="button">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto py-0 me-n3">
+                <div class="navbar-nav ms-auto">
                     <a class="nav-item nav-link active" href="#inicio">Inicio</a>
                     <a class="nav-item nav-link" href="#about">Sobre Nosotros</a>
                     <a class="nav-item nav-link" href="#servicios">Servicios</a>
@@ -71,47 +50,51 @@
         </nav>
         <!-- Carousel -->
         <div class="container-fluid p-0">
-            <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="header-carousel">
+            <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img alt="Diseño web clínicas dentales Córdoba" class="w-100" src="img/carousel-1.jpg" />
-                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                            <div class="p-3" style="max-width: 900px;">
-                                <h5 class="text-white text-uppercase">Especialistas en Web Dental</h5>
-                                <h2 class="display-1 text-white mb-md-4">Diseñamos webs que atraen pacientes</h2>
-                                <a class="btn btn-primary py-md-3 px-md-5 me-3 rounded-pill" href="#precios">Ver
-                                    Precios</a>
-                                <a class="btn btn-secondary py-md-3 px-md-5 rounded-pill" href="#contacto">Solicitar
+                        <img src="img/carousel-1.jpg" alt="Diseño web clínicas dentales Córdoba">
+                        <div
+                            class="carousel-caption d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="p-3" style="max-width: 700px;">
+                                <h5 class="text-white text-uppercase small">Especialistas en Web Dental</h5>
+                                <h2 class="text-white fw-bold mb-3" style="font-size: clamp(1.5rem, 4vw, 2.5rem);">
+                                    Diseñamos webs que atraen pacientes
+                                </h2>
+                                <a href="#precios" class="btn btn-primary py-2 px-4 me-2 rounded-pill">Ver Precios</a>
+                                <a href="#contacto" class="btn btn-secondary py-2 px-4 rounded-pill">Solicitar
                                     Presupuesto</a>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img alt="SEO para clínicas dentales Córdoba" class="w-100" src="img/carousel-2.jpg" />
-                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                            <div class="p-3" style="max-width: 900px;">
-                                <h5 class="text-white text-uppercase">SEO Local Optimizado</h5>
-                                <h2 class="display-1 text-white mb-md-4">Tu clínica en los primeros resultados</h2>
-                                <a class="btn btn-primary py-md-3 px-md-5 me-3 rounded-pill"
-                                    href="#servicios">Servicios</a>
-                                <a class="btn btn-secondary py-md-3 px-md-5 rounded-pill"
-                                    href="#contacto">Contáctanos</a>
+                        <img src="img/blog-1.jpg" alt="SEO para clínicas dentales Córdoba">
+                        <div
+                            class="carousel-caption d-flex flex-column align-items-center justify-content-center text-center">
+                            <div class="p-3" style="max-width: 700px;">
+                                <h5 class="text-white text-uppercase small">SEO Local Optimizado</h5>
+                                <h2 class="text-white fw-bold mb-3" style="font-size: clamp(1.5rem, 4vw, 2.5rem);">
+                                    Tu clínica en los primeros resultados
+                                </h2>
+                                <a href="#servicios" class="btn btn-primary py-2 px-4 me-2 rounded-pill">Servicios</a>
+                                <a href="#contacto" class="btn btn-secondary py-2 px-4 rounded-pill">Contáctanos</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#header-carousel"
-                    type="button">
-                    <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+                <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
                     <span class="visually-hidden">Anterior</span>
                 </button>
-                <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#header-carousel"
-                    type="button">
-                    <span aria-hidden="true" class="carousel-control-next-icon"></span>
+                <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
                     <span class="visually-hidden">Siguiente</span>
                 </button>
             </div>
         </div>
+
         <!-- ===== SECCIÓN BIENVENIDA ===== --><!-- ===== PRESUPUESTO ===== -->
         <div class="container-fluid bg-secondary p-0">
             <div class="row g-0">
@@ -297,14 +280,14 @@
                                 <div class="form-floating">
                                     <input class="form-control" id="form-floating-1" placeholder="John Doe"
                                         type="text" />
-                                    <label for="form-floating-1">Nombre Completo</label>
+                                    <label for="form-floating-1">Nombre</label>
                                 </div>
                             </div>
                             <div class="col-6">
                                 <div class="form-floating mb-3">
                                     <input class="form-control" id="form-floating-2" placeholder="name@example.com"
                                         type="email" />
-                                    <label for="form-floating-2">Correo Electrónico</label>
+                                    <label for="form-floating-2">Correo</label>
                                 </div>
                             </div>
                             <div class="col-6">
@@ -314,7 +297,7 @@
                                         <option value="1">Posicionamiento SEO</option>
                                         <option value="2">Asesoría Digital</option>
                                     </select>
-                                    <label for="floatingSelect">Selecciona un Servicio</label>
+                                    <label for="floatingSelect">Servicio</label>
                                 </div>
                             </div>
                             <div class="col-6">
@@ -401,42 +384,6 @@
                             </div>
                             <h3>Atención rápida y personalizada</h3>
                             <p class="mb-0">Resolvemos dudas y realizamos cambios de forma ágil.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ===== NUESTRO EQUIPO ===== -->
-        <div class="container-fluid py-6 px-5">
-            <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-                <h2 class="display-5 mb-0">Nuestro Equipo</h2>
-                <hr class="w-25 mx-auto bg-primary" />
-            </div>
-            <div class="row g-5">
-                <div class="col-lg-4">
-                    <div class="team-item position-relative overflow-hidden">
-                        <img alt="Imagen de team 1" class="img-fluid w-100" src="img/team-1.jpg" />
-                        <div class="team-text w-100 position-absolute top-50 text-center bg-primary p-4">
-                            <h3 class="text-white">Nombre Completo</h3>
-                            <p class="text-white text-uppercase mb-0">Puesto</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="team-item position-relative overflow-hidden">
-                        <img alt="Imagen de team 2" class="img-fluid w-100" src="img/team-2.jpg" />
-                        <div class="team-text w-100 position-absolute top-50 text-center bg-primary p-4">
-                            <h3 class="text-white">Nombre Completo</h3>
-                            <p class="text-white text-uppercase mb-0">Puesto</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="team-item position-relative overflow-hidden">
-                        <img alt="Imagen de team 3" class="img-fluid w-100" src="img/team-3.jpg" />
-                        <div class="team-text w-100 position-absolute top-50 text-center bg-primary p-4">
-                            <h3 class="text-white">Nombre Completo</h3>
-                            <p class="text-white text-uppercase mb-0">Puesto</p>
                         </div>
                     </div>
                 </div>
@@ -666,8 +613,8 @@
 <div class="container-fluid bg-dark text-secondary text-center border-top py-4 px-5"
     style="border-color: rgba(256, 256, 256, .1) !important;">
     <p class="m-0">© <a class="text-secondary border-bottom" href="#">Web Clínicas Córdoba</a>. Todos los
-        derechos reservados. Diseñado por <a class="text-secondary border-bottom" href="https://htmlcodex.com">HTML
-            Codex</a></p>
+        derechos reservados. Diseñado por <a class="text-secondary border-bottom"
+            href="https://diseñowebcordoba.es">Juan José Jurado</a></p>
 </div>
 <!-- Footer End -->
 <!-- Aquí seguirían las secciones originales adaptadas (features, quote, team, testimonial, blog, footer) usando mismas clases -->
